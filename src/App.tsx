@@ -8,6 +8,10 @@ const Recompensas = () => <h2 className=''>Página de Recompensa</h2>;
 const Contato = () => <h2>Página de Contato</h2>;
 const Integrantes = () => <h2>Página de Integrantes</h2>;
 const FAQ = () => <h2>Página de FAQ</h2>;
+ 
+
+
+
 function App() {
   return (
     <>
@@ -25,6 +29,7 @@ function App() {
       </main>
       <Footer />
       </div>
+      
     </>
   );
 }
