@@ -28,7 +28,10 @@ export function Header() {
       >
         <Link to="/" className="text-[#333] font-semibold no-underline">Início</Link>
         <Link to="/lembretes" className="text-[#333] font-semibold no-underline">Lembretes</Link>
+        <Link to="/diario-da-saude" className="text-[#333] font-semibold no-underline">Diário da Saúde</Link>
+        <Link to="/cuidador" className="text-[#333] font-semibold no-underline">Cuidador</Link>
         <Link to="/contato" className="text-[#333] font-semibold no-underline">Contato</Link>
+        <Link to="/sobre" className="text-[#333] font-semibold no-underline">Sobre</Link>
         <Link to="/integrantes" className="text-[#333] font-semibold no-underline">Integrantes</Link>
         <Link to="/faq" className="text-[#333] font-semibold no-underline">FAQ</Link>
       </nav>
