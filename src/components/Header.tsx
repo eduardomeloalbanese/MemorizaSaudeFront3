@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo_memorizasaude_recort.png';
 
 export function Header() {
   const [isNavActive, setIsNavActive] = useState(false);
@@ -10,6 +11,8 @@ export function Header() {
 
   return (
     <header className="bg-[#f9f9f9] p-4 sm:p-8 flex justify-between items-center border-b border-[#ddd] relative">
+      <img src={logo} alt="Memoriza Saúde" id="logo" className="h-[60px] max-w-[1000px] w-auto" />
+      
       {/* Botão do menu mobile */}
       <div className="md:hidden flex flex-col cursor-pointer" onClick={toggleNav}>
         <div className="bar w-[25px] h-[3px] bg-[#333] my-1 transition-all duration-400"></div>
