@@ -9,7 +9,9 @@ import { HomePage } from './pages/HomePage';
 import { LembretesPage } from './pages/LembretesPage';
 import { SobrePage } from './pages/SobrePage';
 
+
 const Cuidador = () => <h2>Página do Cuidador</h2>;
+
 
 function App() {
   return (
