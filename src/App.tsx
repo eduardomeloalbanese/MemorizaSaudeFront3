@@ -6,9 +6,9 @@ import { Contato } from './pages/contato';
 import { FaqPage } from './pages/faq';
 import { DiarioPage } from './pages/diariosaude';
 import { HomePage } from './pages/HomePage';
+import { LembretesPage } from './pages/LembretesPage';
 
 
-const Lembretes = () => <h2>Página de Lembretes</h2>;
 const Cuidador = () => <h2>Página do Cuidador</h2>;
 
 const Sobre = () => <h2>Página Sobre</h2>;
@@ -20,7 +20,7 @@ function App() {
       <main className='flex-grow'>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/lembretes" element={<Lembretes />} />
+        <Route path="/lembretes" element={<LembretesPage />} />
         <Route path="/diario-da-saude" element={<DiarioPage />} />
         <Route path="/cuidador" element={<Cuidador />} />
         <Route path="/contato" element={<Contato />} />
