@@ -7,11 +7,10 @@ import { FaqPage } from './pages/faq';
 import { DiarioPage } from './pages/diariosaude';
 import { HomePage } from './pages/HomePage';
 import { LembretesPage } from './pages/LembretesPage';
-
+import { SobrePage } from './pages/SobrePage';
 
 const Cuidador = () => <h2>Página do Cuidador</h2>;
 
-const Sobre = () => <h2>Página Sobre</h2>;
 function App() {
   return (
     <>
@@ -25,7 +24,7 @@ function App() {
         <Route path="/cuidador" element={<Cuidador />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/integrantes" element={<IntegrantesPage />} />
-        <Route path="/sobre" element={<Sobre />} />
+        <Route path="/sobre" element={<SobrePage />} />
         <Route path="/faq" element={<FaqPage />} />
       </Routes>
       </main>
