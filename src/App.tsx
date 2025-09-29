@@ -8,9 +8,9 @@ import { DiarioPage } from './pages/diariosaude';
 import { HomePage } from './pages/HomePage';
 import { LembretesPage } from './pages/LembretesPage';
 import { SobrePage } from './pages/SobrePage';
+import { CuidadorPage } from './pages/CuidadorPage';
 
 
-const Cuidador = () => <h2>Página do Cuidador</h2>;
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/lembretes" element={<LembretesPage />} />
         <Route path="/diario-da-saude" element={<DiarioPage />} />
-        <Route path="/cuidador" element={<Cuidador />} />
+        <Route path="/cuidador" element={<CuidadorPage />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/integrantes" element={<IntegrantesPage />} />
         <Route path="/sobre" element={<SobrePage />} />

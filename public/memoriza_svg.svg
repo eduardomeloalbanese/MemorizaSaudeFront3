@@ -1,0 +1,25 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Memoriza Saúde">
+  <!-- fundo transparente -->
+  <title>Memoriza Saúde - favicon</title>
+
+  <!-- coração contornado (esquerda) -->
+  <g transform="translate(6,6) scale(0.9)">
+    <path d="M18.5 3
+             C14.6 3 12 6.2 12 6.2
+             C12 6.2 9.4 3 5.5 3
+             C1.6 3 0 6.2 0 10.1
+             C0 18.9 13 23.6 18.5 30
+             C24 23.6 37 18.9 37 10.1
+             C37 6.2 35.4 3 31.5 3
+             C27.6 3 25 6.2 25 6.2
+             C25 6.2 22.4 3 18.5 3 Z" fill="none" stroke="#6FC6A9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+
+  <!-- bloco HC (direita) -->
+  <g transform="translate(38,18)">
+    <rect x="0" y="0" width="20" height="16" rx="3" ry="3" fill="#2EA1D6"></rect>
+    <rect x="8" y="2" width="10" height="12" rx="2" ry="2" fill="#1F9BBF"></rect>
+    <text x="3" y="12" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="10" font-weight="700" fill="#ffffff">HC</text>
+  </g>
+</svg>
