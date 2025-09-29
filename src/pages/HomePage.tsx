@@ -30,7 +30,7 @@ export function HomePage() {
           alt="Imagem idoso conquistando medalha digital" 
           className="block w-[50%] h-auto rounded-xl mx-auto my-5" 
         />
-        <Link to="/recompensas" className="inline-block py-3 px-6 bg-[#7FAF95] text-white font-bold no-underline rounded-lg mb-8">Ver agora</Link>
+        <Link to="/diario-da-saude" className="inline-block py-3 px-6 bg-[#7FAF95] text-white font-bold no-underline rounded-lg mb-8">Ver agora</Link>
       </section>
     </>
   );
