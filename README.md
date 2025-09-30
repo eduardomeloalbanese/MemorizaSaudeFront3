@@ -24,4 +24,4 @@ Para executar o projeto em sua máquina local, siga estes passos:
 
 ## 🔗 Links do Projeto
 * **Link do Repositório no GitHub:** (https://github.com/eduardomeloalbanese/MemorizaSaudeFront3)
-* **Link do Vídeo de Apresentação:** [Adicione aqui o link para o vídeo do YouTube]
+* **Link do Vídeo de Apresentação:** (https://www.youtube.com/watch?v=77SotSzIaYA)
