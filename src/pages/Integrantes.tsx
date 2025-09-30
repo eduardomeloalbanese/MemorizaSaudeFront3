@@ -9,6 +9,7 @@ export function IntegrantesPage() {
         <MemberCard
           name="Nathan Gonçalves Pereira Mendes"
           rm="564666"
+          turma="1TDSPX"
           photoUrl="src/assets/foto_nathan.jpg"
           linkedinUrl="https://www.linkedin.com/in/nathangpmendes"
           githubUrl="http://github.com/nathangpm"
@@ -16,6 +17,7 @@ export function IntegrantesPage() {
         <MemberCard
           name="Guilherme de Andrade Martini"
           rm="566087"
+          turma="1TDSPX"
           photoUrl="src/assets/foto_guilherme.jpg"
           linkedinUrl="https://www.linkedin.com/in/guilherme-de-andrade-martini-994648348"
           githubUrl="https://github.com/Guilhermedev2807"
@@ -23,6 +25,7 @@ export function IntegrantesPage() {
         <MemberCard
           name="Eduardo de Melo Albanese"
           rm="561790"
+          turma="1TDSPX"
           photoUrl="src/assets/foto_eduardo.png"
           linkedinUrl="https://www.linkedin.com/in/eduardo-de-melo-albanese-605043236/"
           githubUrl="https://github.com/eduardomeloalbanese"

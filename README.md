@@ -1,69 +1,27 @@
-# React + TypeScript + Vite
+# Projeto: Memoriza Saúde
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Tecnologias Utilizadas
+Este projeto foi desenvolvido utilizando uma stack moderna de front-end para criar uma aplicação web interativa e responsiva.
+* **REACT + VITE + TYPESCRIPT**
+* **Tailwind CSS** para estilização e design
+* **React Router DOM** para o sistema de rotas (SPA)
 
-Currently, two official plugins are available:
+## Integrantes da Equipe
+* Nathan Gonçalves Pereira Mendes (RM: 564666)
+* Guilherme de Andrade Martini (RM: 566087)
+* Eduardo de Melo Albanese (RM: 561790)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instruções de Uso
+Para executar o projeto em sua máquina local, siga estes passos:
+1. Clone o repositório em sua máquina:
+   `git clone https://github.com/eduardomeloalbanese/MemorizaSaudeFront3`
+2. Navegue até a pasta do projeto:
+   `cd MemorizaSaudeFront3`
+3. Instale as dependências:
+   `npm install`
+4. Inicie o servidor de desenvolvimento:
+   `npm run dev`
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🔗 Links do Projeto
+* **Link do Repositório no GitHub:** (https://github.com/eduardomeloalbanese/MemorizaSaudeFront3)
+* **Link do Vídeo de Apresentação:** [Adicione aqui o link para o vídeo do YouTube]

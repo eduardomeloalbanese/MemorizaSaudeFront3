@@ -2,6 +2,7 @@
 interface MemberCardProps {
   name: string;
   rm: string;
+  turma: string;
   photoUrl: string;
   linkedinUrl: string;
   githubUrl: string;
@@ -13,6 +14,7 @@ export function MemberCard(props: MemberCardProps) {
       <img src={props.photoUrl} alt={`Foto de ${props.name}`} className="w-24 h-24 rounded-full object-cover mb-4" />
       <h2 className="text-xl font-bold text-gray-800 mb-1">{props.name}</h2>
       <p className="text-gray-600 mb-4">RM: {props.rm}</p>
+      <p className="text-gray-600 mb-6">Turma: {props.turma}</p>
       
       <div className="flex flex-col space-y-2">
         <a 
