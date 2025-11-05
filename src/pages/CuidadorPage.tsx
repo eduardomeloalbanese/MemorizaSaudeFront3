@@ -253,7 +253,11 @@ export function CuidadorPage() {
                         <li className="text-gray-500">Nenhum cuidador cadastrado.</li>
                     ) : (
                         cuidadores.map(cuidador => (
-                            <li key={cuidador.id} className="bg-white p-4 rounded shadow-md">
+                            <li 
+    key={cuidador.id} 
+    className="bg-white p-4 rounded shadow-md 
+               transition-all duration-200 hover:shadow-xl hover:scale-[1.02]"
+>
                                 <p><strong>Nome:</strong> {cuidador.nome}</p>
                                 <p><strong>Telefone:</strong> {cuidador.telefone}</p>
                                 <p><strong>Sexo:</strong> {cuidador.sexo}</p>

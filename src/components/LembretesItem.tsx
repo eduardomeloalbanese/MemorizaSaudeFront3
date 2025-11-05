@@ -13,7 +13,8 @@ export function LembreteItem({ id, title, text, onDelete, onEdit }: LembreteItem
     const lerTexto = () => { /* ... */ }; 
 
     return (
-        <section className="bg-white p-6 rounded-lg shadow-md mb-4 w-full max-w-lg">
+        <section className="bg-white p-6 rounded-lg shadow-md mb-4 w-full max-w-lg 
+                  transition-all duration-200 hover:shadow-xl hover:scale-[1.02]">
             <h2 className="text-xl font-bold mb-2">{title}</h2>
             <p id={String(id)} className="text-gray-700 mb-4">{text}</p>
 
