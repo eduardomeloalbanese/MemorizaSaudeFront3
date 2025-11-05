@@ -9,6 +9,7 @@ import { HomePage } from './pages/HomePage';
 import { LembretesPage } from './pages/LembretesPage';
 import { SobrePage } from './pages/SobrePage';
 import { CuidadorPage } from './pages/CuidadorPage';
+import { CuidadorPainelPage } from './pages/CuidadorPainelPage';
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/lembretes" element={<LembretesPage />} />
         <Route path="/diario-da-saude" element={<DiarioPage />} />
         <Route path="/cuidador" element={<CuidadorPage />} />
+        <Route path="/cuidador/painel/:id" element={<CuidadorPainelPage />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/integrantes" element={<IntegrantesPage />} />
         <Route path="/sobre" element={<SobrePage />} />
