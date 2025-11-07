@@ -1,27 +1,58 @@
-# Projeto: Memoriza Saúde
+# 💚 Projeto Memoriza Saúde: Gestão de Bem-Estar
 
-## 🚀 Tecnologias Utilizadas
-Este projeto foi desenvolvido utilizando uma stack moderna de front-end para criar uma aplicação web interativa e responsiva.
-* **REACT + VITE + TYPESCRIPT**
-* **Tailwind CSS** para estilização e design
-* **React Router DOM** para o sistema de rotas (SPA)
+## Visão Geral do Projeto (README.MD Obrigatório - Sprint 4)
 
-## Integrantes da Equipe
-* Nathan Gonçalves Pereira Mendes (RM: 564666)
-* Guilherme de Andrade Martini (RM: 566087)
-* Eduardo de Melo Albanese (RM: 561790)
+O Memoriza Saúde é uma **Single Page Application (SPA)** desenvolvida para HC com objetivo de auxiliar idosos e seus cuidadores no gerenciamento da rotina de saúde. O objetivo é facilitar o acompanhamento de consultas, o registro diário de bem-estar e fortalecer a comunicação entre paciente e cuidador.
 
-## Instruções de Uso
-Para executar o projeto em sua máquina local, siga estes passos:
-1. Clone o repositório em sua máquina:
-   `git clone https://github.com/eduardomeloalbanese/MemorizaSaudeFront3`
-2. Navegue até a pasta do projeto:
-   `cd MemorizaSaudeFront3`
-3. Instale as dependências:
-   `npm install`
-4. Inicie o servidor de desenvolvimento:
-   `npm run dev`
+---
 
-## 🔗 Links do Projeto
-* **Link do Repositório no GitHub:** (https://github.com/eduardomeloalbanese/MemorizaSaudeFront3)
-* **Link do Vídeo de Apresentação:** (https://www.youtube.com/watch?v=77SotSzIaYA)
+## 🚀 Tecnologias e Arquitetura
+
+O projeto foi construído sobre uma pilha moderna de desenvolvimento, conforme as diretrizes do curso, garantindo performance e escalabilidade.
+
+### 💻 Stack Front-end
+* **Framework:** **REACT + VITE + TYPESCRIPT**
+* **Estilização:** **Tailwind CSS** (Utilizado para toda a estilização e responsividade)
+* **Rotas:** **React Router DOM** (Para arquitetura SPA)
+
+### 🔗 Integração com Backend
+* **Tipo de API:** API RESTful desenvolvida em **Java** (Consumo de dados via `fetch` para operações CRUD).
+
+---
+
+## 👥 Identificação dos Integrantes (Critério Obrigatório)
+
+A participação da equipe está registrada no histórico de commits. As informações de identificação obrigatórias estão presentes na página de **Integrantes** e listadas abaixo:
+
+| Nome Completo | RM | Turma |
+| :--- | :--- | :--- |
+| Nathan Gonçalves Pereira Mendes | 564666 | 1TDSPX |
+| Guilherme de Andrade Martini | 566087 | 1TDSPX |
+| Eduardo de Melo Albanese | 561790 | 1TDSPX |
+
+---
+
+## 🌐 Links e Entrega Final
+
+**ATENÇÃO:** A solução entregue em formato ZIP contém o versionamento do projeto na branch `main`.
+
+| Recurso | Status | Link |
+| :--- | :--- | :--- |
+| **Aplicação Publicada (Vercel)** | **Online** | [Acessar o Projeto](https://memoriza-saude-front3.vercel.app/) |
+| **Link do Repositório GitHub** | **Para Auditoria** | [Repositório GitHub](https://github.com/eduardomeloalbanese/MemorizaSaudeFront3) |
+| **Link do Vídeo de Apresentação** | **Obrigatório** | [Adicione aqui o link para o vídeo do YouTube] |
+
+---
+
+## ⚙️ Instruções para Execução Local
+
+Para rodar o projeto em ambiente de desenvolvimento e testar o versionamento, siga estes passos:
+
+1.  Clone o repositório:
+    `git clone https://github.com/eduardomeloalbanese/MemorizaSaudeFront3`
+2.  Navegue até a pasta do projeto:
+    `cd MemorizaSaudeFront3`
+3.  Instale as dependências (exceto a `node_modules` entregue):
+    `npm install`
+4.  Inicie o servidor local:
+    `npm run dev`
