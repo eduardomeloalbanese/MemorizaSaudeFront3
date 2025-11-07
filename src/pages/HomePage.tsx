@@ -5,7 +5,7 @@ export function HomePage() {
     <>
       <section className="flex flex-col items-center text-center p-8 bg-[#FFEFD2]">
         <img 
-          src="/src/assets/acompanhamento_idoso.png" 
+          src="/assets/acompanhamento_idoso.png" 
           alt="Banner principal - Acompanhamento de saúde nas suas mãos" 
           className="block w-[50%] h-auto rounded-xl mx-auto my-5" 
         />
@@ -16,7 +16,7 @@ export function HomePage() {
         <h2 className="text-[1.6rem] text-[#3D3D3D] mb-2 font-bold">Sua presença vale <span className="text-[#C2A32E] font-extrabold">OURO!</span></h2>
         <p className="text-base mb-4">Tenha acesso completo de suas consultas!</p>
         <img 
-          src="/src/assets/consulta_marcada.png" 
+          src="/assets/consulta_marcada.png" 
           alt="Imagem Consulta marcada" 
           className="block w-[50%] h-auto rounded-xl mx-auto my-5" 
         />
@@ -26,7 +26,7 @@ export function HomePage() {
       <section className="p-8 text-center">
         <h2 className="text-[1.6rem] text-[#3D3D3D] mb-2 font-bold">Resgistra seu dia com <strong>Carinho❤️</strong></h2>
         <img 
-          src="/src/assets/diariosaude_img.png" 
+          src="/assets/diariosaude_img.png" 
           alt="Imagem idoso conquistando medalha digital" 
           className="block w-[50%] h-auto rounded-xl mx-auto my-5" 
         />

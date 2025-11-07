@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from '../assets/logo_memorizasaude_recort.png';
+import logo from '/assets/logo_memorizasaude_recort.png';
 
 export function Header() {
   const [isNavActive, setIsNavActive] = useState(false);
