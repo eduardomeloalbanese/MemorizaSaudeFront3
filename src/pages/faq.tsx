@@ -1,43 +1,24 @@
-import { useState } from 'react';
-interface FaqItemProps {
-  question: string;
-  answer: string;
-}
+import { FaqItem } from '../components/FaqItem';
 
-export function FaqItem({ question, answer }: FaqItemProps) {
-  // Hook useState para controlar se o item está aberto ou fechado
-  const [isOpen, setIsOpen] = useState(false);
-
-  // Função para inverter o estado
-  const toggleOpen = () => {
-    setIsOpen(!isOpen);
-  };
-
+export function FaqPage() {
   return (
-    // Aplicamos os estilos de card coesos (rounded-xl, shadow-lg)
-    <div className="bg-white rounded-xl shadow-lg mb-4 overflow-hidden">
-      
-      {/* O cabeçalho da pergunta agora é um botão */}
-      <button
-        onClick={toggleOpen}
-        className="flex justify-between items-center w-full p-6 text-left focus:outline-none"
-      >
-        <h3 className="text-xl font-bold text-[#3D3D3D]">{question}</h3>
+    <div className="flex flex-col items-center p-8">
+      <div className="w-full max-w-2xl">
+        <h2 className="text-3xl font-bold mb-8 text-center">Perguntas Frequentes</h2>
         
-        {/* Ícone de seta que gira com base no estado 'isOpen' */}
-        <span className={`transform transition-transform duration-300 ${isOpen ? 'rotate-180' : 'rotate-0'}`}>
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M19.9201 8.9502L13.4001 15.4702C12.6301 16.2402 11.3701 16.2402 10.6001 15.4702L4.08008 8.9502" stroke="#3D3D3D" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-        </span>
-      </button>
-
-      {/* O conteúdo da resposta só é renderizado se 'isOpen' for verdadeiro */}
-      {isOpen && (
-        <div className="p-6 pt-0 text-gray-700 leading-relaxed">
-          <p>{answer}</p>
-        </div>
-      )}
+        <FaqItem
+          question="🧓 O que é isso?"
+          answer="É um ajudante no seu celular feito pra njte lembrar das consultas, dos exames e te ajudar a cuidar da sua saúde de forma fácil e divertida. A cada vez que você cuida da sua saúde — como ir na consulta, tomar seus remédios ou anotar como você está se sentindo — você ganha medalhas e mensagens de parabéns. Isso te motiva e te mostra que você está no caminho certo!"
+        />
+        <FaqItem
+          question="💙 Como isso vai me ajudar?"
+          answer="Ele te avisa do dia da consulta, te explica pra que ela serve, te dá dicas pra se cuidar no dia a dia e ainda te incentiva com mensagens carinhosas e conquistas. Assim, fica mais fácil lembrar e cuidar da sua saúde."
+        />
+        <FaqItem
+          question="📱 Meu celular simples funciona?"
+          answer="Funciona sim! Foi feito pensando em quem tem celular mais simples e até quem tem dificuldade com internet. Os botões são grandes, tem leitura em voz alta e até funciona sem internet em várias partes, como no seu caderno de saúde."
+        />
+      </div>
     </div>
   );
 }
