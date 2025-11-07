@@ -8,7 +8,7 @@ export function FaqPage() {
         
         <FaqItem
           question="🧓 O que é isso?"
-          answer="É um ajudante no seu celular feito pra te lembrar das consultas, dos exames e te ajudar a cuidar da sua saúde de forma fácil e divertida. A cada vez que você cuida da sua saúde — como ir na consulta, tomar seus remédios ou anotar como você está se sentindo — você ganha medalhas e mensagens de parabéns. Isso te motiva e te mostra que você está no caminho certo!"
+          answer="É um ajudante no seu celular feito pra njte lembrar das consultas, dos exames e te ajudar a cuidar da sua saúde de forma fácil e divertida. A cada vez que você cuida da sua saúde — como ir na consulta, tomar seus remédios ou anotar como você está se sentindo — você ganha medalhas e mensagens de parabéns. Isso te motiva e te mostra que você está no caminho certo!"
         />
         <FaqItem
           question="💙 Como isso vai me ajudar?"

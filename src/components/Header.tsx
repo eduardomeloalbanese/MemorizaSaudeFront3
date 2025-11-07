@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../assets/logo_memorizasaude_recort.png';
 
 export function Header() {
@@ -9,9 +9,16 @@ export function Header() {
     setIsNavActive(!isNavActive);
   };
 
+ 
+  const linkClasses = "text-[#333] font-semibold no-underline transition-colors duration-200"; 
+  const activeLinkClasses = "text-[#70b794] font-bold no-underline transition-colors duration-200"; 
+
   return (
     <header className="bg-[#f9f9f9] p-4 sm:p-8 flex justify-between items-center border-b border-[#ddd] relative">
-      <img src={logo} alt="Memoriza Saúde" id="logo" className="h-[60px] max-w-[1000px] w-auto" />
+      
+      <NavLink to="/">
+        <img src={logo} alt="Memoriza Saúde - Ir para Início" id="logo" className="h-[60px] max-w-[1000px] w-auto" />
+      </NavLink>
       
       {/* Botão do menu mobile */}
       <div className="md:hidden flex flex-col cursor-pointer" onClick={toggleNav}>
@@ -26,14 +33,15 @@ export function Header() {
           md:flex flex-col md:flex-row absolute md:static top-full left-0 right-0
           bg-[#f9f9f9] p-4 md:p-0 border-t md:border-t-0 border-[#ddd] space-y-2 md:space-y-0 md:space-x-6`}
       >
-        <Link to="/" className="text-[#333] font-semibold no-underline">Início</Link>
-        <Link to="/lembretes" className="text-[#333] font-semibold no-underline">Lembretes</Link>
-        <Link to="/diario-da-saude" className="text-[#333] font-semibold no-underline">Diário da Saúde</Link>
-        <Link to="/cuidador" className="text-[#333] font-semibold no-underline">Cuidador</Link>
-        <Link to="/contato" className="text-[#333] font-semibold no-underline">Contato</Link>
-        <Link to="/sobre" className="text-[#333] font-semibold no-underline">Sobre</Link>
-        <Link to="/integrantes" className="text-[#333] font-semibold no-underline">Integrantes</Link>
-        <Link to="/faq" className="text-[#333] font-semibold no-underline">FAQ</Link>
+        {/* 3. Usamos o NavLink com a função className */}
+        <NavLink to="/" className={({ isActive }) => isActive ? activeLinkClasses : linkClasses}>Início</NavLink>
+        <NavLink to="/lembretes" className={({ isActive }) => isActive ? activeLinkClasses : linkClasses}>Lembretes</NavLink>
+        <NavLink to="/diario-da-saude" className={({ isActive }) => isActive ? activeLinkClasses : linkClasses}>Diário da Saúde</NavLink>
+        <NavLink to="/cuidador" className={({ isActive }) => isActive ? activeLinkClasses : linkClasses}>Cuidador</NavLink>
+        <NavLink to="/contato" className={({ isActive }) => isActive ? activeLinkClasses : linkClasses}>Contato</NavLink>
+        <NavLink to="/sobre" className={({ isActive }) => isActive ? activeLinkClasses : linkClasses}>Sobre</NavLink>
+        <NavLink to="/integrantes" className={({ isActive }) => isActive ? activeLinkClasses : linkClasses}>Integrantes</NavLink>
+        <NavLink to="/faq" className={({ isActive }) => isActive ? activeLinkClasses : linkClasses}>FAQ</NavLink>
       </nav>
     </header>
   );

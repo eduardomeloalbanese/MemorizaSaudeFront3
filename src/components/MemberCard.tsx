@@ -1,4 +1,3 @@
-
 interface MemberCardProps {
   name: string;
   rm: string;
@@ -10,9 +9,15 @@ interface MemberCardProps {
 
 export function MemberCard(props: MemberCardProps) {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center m-4">
+    // ✅ Card padronizado (rounded-xl, shadow-lg, hover effect)
+    <div className="bg-white p-6 rounded-xl shadow-lg flex flex-col items-center text-center m-4
+                    transition-all duration-200 hover:shadow-xl hover:scale-[1.01]">
+      
       <img src={props.photoUrl} alt={`Foto de ${props.name}`} className="w-24 h-24 rounded-full object-cover mb-4" />
-      <h2 className="text-xl font-bold text-gray-800 mb-1">{props.name}</h2>
+      
+      {/* ✅ Subtítulo com cor de destaque */}
+      <h2 className="text-xl font-bold text-[#C2A32E] mb-1">{props.name}</h2>
+      
       <p className="text-gray-600 mb-4">RM: {props.rm}</p>
       <p className="text-gray-600 mb-6">Turma: {props.turma}</p>
       
@@ -21,7 +26,8 @@ export function MemberCard(props: MemberCardProps) {
           href={props.linkedinUrl} 
           target="_blank" 
           rel="noopener noreferrer"
-          className="bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-200"
+          // ✅ Botão com transição
+          className="bg-blue-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-blue-700 transition-colors duration-200"
         >
           LinkedIn
         </a>
@@ -29,7 +35,8 @@ export function MemberCard(props: MemberCardProps) {
           href={props.githubUrl} 
           target="_blank" 
           rel="noopener noreferrer"
-          className="bg-gray-800 text-white font-semibold py-2 px-4 rounded hover:bg-gray-900 transition-colors duration-200"
+          // ✅ Botão com transição
+          className="bg-gray-800 text-white font-semibold py-2 px-4 rounded-md hover:bg-gray-900 transition-colors duration-200"
         >
           GitHub
         </a>
