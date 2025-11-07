@@ -12,7 +12,7 @@ export function LembreteItem({ id, title, text }: LembreteItemProps) {
   };
 
   return (
-    <section className="bg-white p-6 rounded-lg shadow-md mb-4 w-full max-w-lg">
+    <section className="bg-white p-6 rounded-xl shadow-lg mb-4 w-full max-w-lg">
       <h2 className="text-xl font-bold mb-2">{title}</h2>
       <p id={id} className="text-gray-700 mb-4">{text}</p>
       <button 

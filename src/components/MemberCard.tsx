@@ -9,7 +9,7 @@ interface MemberCardProps {
 
 export function MemberCard(props: MemberCardProps) {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center m-4">
+    <div className="bg-white p-6 rounded-xl shadow-lg flex flex-col items-center text-center m-4">
       <img src={props.photoUrl} alt={`Foto de ${props.name}`} className="w-24 h-24 rounded-full object-cover mb-4" />
       <h2 className="text-xl font-bold text-gray-800 mb-1">{props.name}</h2>
       <p className="text-gray-600 mb-4">RM: {props.rm}</p>

@@ -28,7 +28,7 @@ export function DiarioForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-md w-full max-w-lg">
+    <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow-lg w-full max-w-lg">
       <div className="mb-4">
         <label htmlFor="alimentacao" className="block text-gray-700 font-bold mb-2">
           Alimentação:
