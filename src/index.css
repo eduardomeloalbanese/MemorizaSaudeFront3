@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f8fafc; /* Tailwind bg-gray-100 ou similar */
-  color: #333; /* Cor do texto principal */
+  background-color: #f8fafc; 
+  color: #333; 
   line-height: 1.6;
 }
