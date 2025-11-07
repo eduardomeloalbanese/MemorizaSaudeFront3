@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from 'react'; 
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo_memorizasaude_recort.png';
 
@@ -11,7 +11,11 @@ export function Header() {
 
   return (
     <header className="bg-[#f9f9f9] p-4 sm:p-8 flex justify-between items-center border-b border-[#ddd] relative">
-      <img src={logo} alt="Memoriza Saúde" id="logo" className="h-[60px] max-w-[1000px] w-auto" />
+      
+      {/* ✅ ETAPA 1: Link corrigido para a página inicial */}
+      <Link to="/">
+        <img src={logo} alt="Memoriza Saúde - Ir para Início" id="logo" className="h-[60px] max-w-[1000px] w-auto" />
+      </Link>
       
       {/* Botão do menu mobile */}
       <div className="md:hidden flex flex-col cursor-pointer" onClick={toggleNav}>
