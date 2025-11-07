@@ -2,15 +2,17 @@ import { MemberCard } from '../components/MemberCard';
 
 export function IntegrantesPage() {
   return (
-    <div className="flex flex-col items-center p-8">
-      <h1 className="text-3xl font-bold mb-8">Identificação dos Alunos</h1>
+    
+    <main className="flex flex-col items-center p-4 md:p-8 bg-gray-50 min-h-screen">
+      
+      <h1 className="text-2xl md:text-3xl font-bold mb-8 text-[#3D3D3D]">Identificação dos Alunos</h1>
 
       <div className="flex flex-wrap justify-center">
         <MemberCard
           name="Nathan Gonçalves Pereira Mendes"
           rm="564666"
           turma="1TDSPX"
-          photoUrl="src/assets/foto_nathan.jpg"
+          photoUrl="src/assets/foto_nathan.jpg" 
           linkedinUrl="https://www.linkedin.com/in/nathangpmendes"
           githubUrl="http://github.com/nathangpm"
         />
@@ -31,6 +33,6 @@ export function IntegrantesPage() {
           githubUrl="https://github.com/eduardomeloalbanese"
         />
       </div>
-    </div>
+    </main>
   );
 }
