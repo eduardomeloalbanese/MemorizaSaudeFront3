@@ -40,7 +40,7 @@ A participação da equipe está registrada no histórico de commits. As informa
 | :--- | :--- | :--- |
 | **Aplicação Publicada (Vercel)** | **Online** | [Acessar o Projeto](https://memoriza-saude-front3.vercel.app/) |
 | **Link do Repositório GitHub** | **Para Auditoria** | [Repositório GitHub](https://github.com/eduardomeloalbanese/MemorizaSaudeFront3) |
-| **Link do Vídeo de Apresentação** | **Obrigatório** | [Adicione aqui o link para o vídeo do YouTube] |
+| **Link do Vídeo de Apresentação** | **Obrigatório** | [https://youtu.be/r8tots3pilE] |
 
 ---
 
